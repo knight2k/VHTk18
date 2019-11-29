@@ -13,6 +13,7 @@ void Typing()
 
 int main()
 {
+
 	CVehicle *CC1 = new CCar(1,1);
 	CVehicle *CC2 = new CCar(2,2);
 	thread seccond(&CVehicle::Move,CC1);
@@ -21,5 +22,6 @@ int main()
 	seccond.join();
 	seccond2.join();
 	first.join();
+	cout << "test";
 	return 0;
 }
