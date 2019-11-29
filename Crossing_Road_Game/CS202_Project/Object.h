@@ -18,9 +18,9 @@ public:
 
 class CCar : public CVehicle {
 public:
-	CCar() :CVehicle() { 
-		mX = 1;
-		mY = 1;
+	CCar(int a,int b) :CVehicle() { 
+		mX = a;
+		mY = b;
 	};
 	void Relocation()
 	{
@@ -32,11 +32,11 @@ public:
 	}
 	void Move()
 	{
+		this_thread::sleep_for(seconds(1));
 		for (int i = 0; i < 100; ++i)
 		{
 			Relocation();
-			sleep_for(nanoseconds(10));
-			sleep_until(system_clock::now() + nanoseconds(500000000));
+			sleep_for(seconds(1));
 		}
 	}
 };

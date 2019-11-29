@@ -1,3 +1,3 @@
 ﻿  main.cpp
-c:\users\duy an\source\repos\test\18125059_groupproject\crossing_road_game\cs202_project\console.h(22): warning C4838: conversion from 'const unsigned short' to 'SHORT' requires a narrowing conversion
-  CS202_Project.vcxproj -> C:\Users\Duy An\source\repos\test\18125059_GroupProject\Crossing_Road_Game\Debug\CS202_Project.exe
+c:\users\duy an\source\repos\test\cs202-18apcs3-group07\crossing_road_game\cs202_project\console.h(22): warning C4838: conversion from 'const unsigned short' to 'SHORT' requires a narrowing conversion
+  CS202_Project.vcxproj -> C:\Users\Duy An\source\repos\test\cs202-18apcs3-group07\Crossing_Road_Game\Debug\CS202_Project.exe

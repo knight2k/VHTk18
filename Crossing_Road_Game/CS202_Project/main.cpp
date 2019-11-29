@@ -13,10 +13,13 @@ void Typing()
 
 int main()
 {
-	CVehicle *CC1 = new CCar;
+	CVehicle *CC1 = new CCar(1,1);
+	CVehicle *CC2 = new CCar(2,2);
 	thread seccond(&CVehicle::Move,CC1);
+	thread seccond2(&CVehicle::Move, CC2);
 	thread first(Typing);
-	first.join();
 	seccond.join();
+	seccond2.join();
+	first.join();
 	return 0;
 }
