@@ -21,5 +21,6 @@ int main()
 	seccond.join();
 	seccond2.join();
 	first.join();
+	cout << "an di dien";
 	return 0;
 }
