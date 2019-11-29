@@ -22,5 +22,6 @@ int main()
 	seccond2.join();
 	first.join();
 	cout << "hung cho dien";
+	cout << "an di dien";
 	return 0;
 }
